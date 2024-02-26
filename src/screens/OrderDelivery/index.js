@@ -170,7 +170,7 @@ const OrderDelivery = () => {
           }
           strokeWidth={5}
           strokeColor="#3fc060"
-          apikey={"AIzaSyCN7hyU2yOff1Ges8FOkfu23vs4FI2neXg"}
+          apikey={"DIRECTIONS_API_KEY"}
           onReady={(result) => {
             setIsDriverClose(result.distance <= 0.1);
             console.log(isDriverClose);
